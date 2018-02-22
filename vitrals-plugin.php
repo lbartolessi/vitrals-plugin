@@ -4,7 +4,7 @@
  *
  * @package     WordPress\Plugins\Vitrals
  * @author      Luis Bartolessi <luis@bartolessi.org>
- * @link        https://github.com/lbartolessi/vitrals-plugin
+ * @link        https://github.com/lbartolessi/vitrals-plugin/archive/master.zip
  * @version     1.0.0
  *
  * @copyright   2013-2018 Juliette Reinders Folmer
