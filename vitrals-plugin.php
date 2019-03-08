@@ -166,8 +166,7 @@ function vitrals_shortcodes_init () {
 		$content = apply_filters ( 'the_content', $content );
 		$content = str_replace ( ']]>', ']]&gt;', $content );
 
-		$left_content = get_query_var ( 'left_content' ) . $content;
-		set_query_var ( 'left_content', $left_content );
+		set_query_var ( 'left_content', $content );
 		return '';
 
 	}
@@ -181,8 +180,7 @@ function vitrals_shortcodes_init () {
 		$content = apply_filters ( 'the_content', $content );
 		$content = str_replace ( ']]>', ']]&gt;', $content );
 
-		$right_content = get_query_var ( 'right_content' ) . $content;
-		set_query_var ( 'right_content', $right_content );
+		set_query_var ( 'right_content', $content );
 		return '';
 
 	}
