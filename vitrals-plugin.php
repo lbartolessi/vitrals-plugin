@@ -70,10 +70,10 @@ function vitrals_shortcodes_init () {
 			$id = preg_replace ( '/\=?(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/(watch\?v\=|embed\/)?([^"]+)/',
 						'$4', $atts[ 0 ] );
 		}
-		return sprintf ( ' <figure><a class="btn lazy-embed embed-responsive embed-responsive-16by9 mb-4" data-service="youtube" data-id="%1$s">'
+		return sprintf ( ' <figure><a class="btn lazy-embed embed-responsive embed-responsive-16by9 mb-0" data-service="youtube" data-id="%1$s">'
 		. '     <img alt="%2$s" class="embed-responsive-item" src="https://img.youtube.com/vi/%1$s/default.jpg">'
 		. ' </a>'
-		. ' <div id="%1$s"  class="lazy-embed embed-responsive embed-responsive-16by9 mb-4">'
+		. ' <div id="%1$s"  class="lazy-embed embed-responsive embed-responsive-16by9 mb-0">'
 		. '     <iframe class="embed-responsive-item" allowfullscreen ></iframe>'
 		. ' </div>'
 		. '     <figcaption>%2$s</figcaption>'
